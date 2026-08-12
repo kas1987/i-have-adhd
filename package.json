@@ -6,6 +6,9 @@
   "homepage": "https://github.com/ayghri/i-have-adhd",
   "private": true,
   "keywords": ["pi-package"],
+  "scripts": {
+    "check-skill-contracts": "node scripts/check-skill-contracts.mjs"
+  },
   "pi": {
     "extensions": ["./extensions/i-have-adhd.ts"],
     "skills": ["./skills"]
